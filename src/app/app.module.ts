@@ -29,6 +29,11 @@ import { MenuRestritoComponent } from './restrito/menu-restrito/menu-restrito.co
 import { ViniciosComponent } from './vinicios/vinicios.component';
 import { JuaoComponent } from './juao/juao.component';
 import { ArealComponent } from './areal/areal.component';
+import { RyanComponent } from './inicio/ryan/ryan.component';
+import { VinyComponent } from './vinicios/viny/viny.component';
+import { ArielComponent } from './ariel/ariel.component';
+import { SouzaComponent } from './ariel/souza/souza.component';
+import { JpComponent } from './joao/jp/jp.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +49,12 @@ import { ArealComponent } from './areal/areal.component';
     MenuRestritoComponent,
     ViniciosComponent,
     JuaoComponent,
-    ArealComponent
+    ArealComponent,
+    RyanComponent,
+    VinyComponent,
+    ArielComponent,
+    SouzaComponent,
+    JpComponent
   ],
   imports: [
     BrowserModule,
