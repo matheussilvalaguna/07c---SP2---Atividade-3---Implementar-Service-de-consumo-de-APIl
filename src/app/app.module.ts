@@ -26,14 +26,7 @@ import { AtualizaProdutoComponent } from './restrito/atualiza-produto/atualiza-p
 import { CadastroProdutoComponent } from './restrito/cadastro-produto/cadastro-produto.component';
 import { ListaProdutoComponent } from './restrito/lista-produto/lista-produto.component';
 import { MenuRestritoComponent } from './restrito/menu-restrito/menu-restrito.component';
-import { ViniciosComponent } from './vinicios/vinicios.component';
-import { JuaoComponent } from './juao/juao.component';
-import { ArealComponent } from './areal/areal.component';
-import { RyanComponent } from './inicio/ryan/ryan.component';
-import { VinyComponent } from './vinicios/viny/viny.component';
-import { ArielComponent } from './ariel/ariel.component';
-import { SouzaComponent } from './ariel/souza/souza.component';
-import { JpComponent } from './joao/jp/jp.component';
+
 
 @NgModule({
   declarations: [
@@ -47,14 +40,7 @@ import { JpComponent } from './joao/jp/jp.component';
     CadastroProdutoComponent,
     ListaProdutoComponent,
     MenuRestritoComponent,
-    ViniciosComponent,
-    JuaoComponent,
-    ArealComponent,
-    RyanComponent,
-    VinyComponent,
-    ArielComponent,
-    SouzaComponent,
-    JpComponent
+   
   ],
   imports: [
     BrowserModule,
